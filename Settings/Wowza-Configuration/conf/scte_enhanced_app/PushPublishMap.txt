@@ -1,0 +1,6 @@
+# This file has been upgraded for use by the Wowza Streaming Engine REST API. Please avoid hand-editing.
+#
+arrowcp.stream_432p={"entryName":"cupertino-file-432p", "profile":"cupertino-file", "debugLog":"true", "destinationName":"filesystem", "cupertino.playlistCount":20, "file.root":"/home/amagi/local-file-cache","adaptiveGroup":"arrowcp.stream_all", "streamName":"arrowcp.stream_432p" , "enabled":"false"}
+arrowcp.stream_720p={"entryName":"cupertino-file-720p", "profile":"cupertino-file", "debugLog":"true", "destinationName":"filesystem", "cupertino.playlistCount":20, "file.root":"/home/amagi/local-file-cache","adaptiveGroup":"arrowcp.stream_all", "streamName":"arrowcp.stream_720p" , "enabled":"true"}
+arrowcp.stream_360p={"entryName":"cupertino-file-360p", "profile":"cupertino-file", "debugLog":"true", "destinationName":"filesystem", "cupertino.playlistCount":20, "file.root":"/home/amagi/local-file-cache","adaptiveGroup":"arrowcp.stream_all", "streamName":"arrowcp.stream_360p" , "enabled":"true"}
+arrowcp.stream_144p={"entryName":"cupertino-file-144p", "profile":"cupertino-file", "debugLog":"true", "destinationName":"filesystem", "cupertino.playlistCount":20, "file.root":"/home/amagi/local-file-cache","adaptiveGroup":"arrowcp.stream_all", "streamName":"arrowcp.stream_144p" , "enabled":"false"}

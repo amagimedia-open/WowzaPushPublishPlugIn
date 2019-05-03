@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<PushPublishProfiles>
+		<PushPublishProfile>
+			<Name>cupertino-file</Name>
+			<Protocol>HTTP</Protocol>			<BaseClass>com.amagi.thunderstorm.wowza.PushPublishHTTPCupertinoChunkSplitterFileHandler</BaseClass>
+			<Implementation>
+				<Name>Cupertino File</Name>
+			</Implementation>
+			<HTTPConfiguration>
+			</HTTPConfiguration>
+			<Properties>
+			</Properties>
+		</PushPublishProfile>
+	</PushPublishProfiles>
+</Root>
