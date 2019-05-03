@@ -1,6 +1,21 @@
 
 Wowza version supported : 4.7.0 and above
 
+Features Supported
+-------------------
+
+Current Features :
+
+    CUE Out (Duration) followed by CUE IN
+    - Reflects in HLS, chunks on Content-Advert and Advert-Content boundary in Wowza
+    CUE Out (NO Duration) followed by CUE IN
+    - Reflects in HLS ,chunks on CA and AC boundary in Wowza
+    CUE Out (Duration) NOT followed by  CUE IN
+    - Plugin will add CUE IN in HLS by tracking duration
+    - Chunks on CA and AC boundary in Wowza
+    Supports EXT-X-PROGRAM-DATE-TIME
+    Supports HLS PULL only
+
 Steps to follow: 
 ----------------
 1) Copy SCTEEnhanced.jar to /usr/local/WowzaStreamingEngine/lib
@@ -109,6 +124,6 @@ Steps to follow:
 
 Typical commands :
 
-sudo systemctl restart WowzaStreamingEngineManager.service
-sudo systemctl restart WowzaStreamingEngine.service
-sudo service nginx restart
+	sudo systemctl restart WowzaStreamingEngineManager.service
+	sudo systemctl restart WowzaStreamingEngine.service
+	sudo service nginx restart
